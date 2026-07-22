@@ -845,7 +845,7 @@ campaignTrail_temp.achievements = {
     "description" : "Pass the demogrant.",
     "cannotBeCheated" : true
   },
-  "Eighteenth Century Fox" : {
+  "Goodnight Saigon" : {
     "image" : "https://i.imgur.com/PQZNuPE.png",
     "description" : "Come home.",
     "cannotBeCheated" : true
