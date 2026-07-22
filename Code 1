@@ -791,7 +791,7 @@ document.addEventListener("click", function (event) {
   }
 });
 
-campaignTrail_temp.modBoxTheme = { "header_color": "#3c428c", "header_image_url": "https://i.imgur.com/gl4sSLq.jpeg", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#fff0dd", "main_color": "#3c428c", "secondary_color": "#ffe3bf", "ui_text_color": "#FFFFFF" }
+campaignTrail_temp.modBoxTheme = { "header_color": "#3c428c", "header_image_url": "https://i.imgur.com/gl4sSLq.jpeg", "header_text_color": "#ffffff", "description_text_color": "#000000", "description_background_color": "#fff0dd", "main_color": "#3c428c", "secondary_color": "#ffe3bf", "ui_text_color": "#FFFFFF" }
 
 
 campaignTrail_temp.achievements = {
@@ -810,7 +810,7 @@ campaignTrail_temp.achievements = {
     "description" : "Defeat Nelson Rockefeller.",
     "cannotBeCheated" : true
   },
-  "Mo, Left Turns" : {
+  "No, Left Turns" : {
     "image" : "https://i.imgur.com/WIc0tf3.png",
     "description" : "Defeat a demagogue and his replacement.",
     "cannotBeCheated" : true
@@ -916,19 +916,7 @@ function addDynamicCSS() {
 addDynamicCSS();
 
 tooltipList = [
-// Personal people
-{searchString: "Ham", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Hamilton%20Jordan.jpg> Has been set up for a great big fall."},
-{searchString: "Hamilton", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Hamilton%20Jordan.jpg> Has been set up for a great big fall."},
-{searchString: "Hamilton Jordan", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Hamilton%20Jordan.jpg> Has been set up for a great big fall."},
-{searchString: "Jody", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Jody%20Powell.jpg> Chain-Smoking Press Secretary, knows me best."},
-{searchString: "Jody Powell", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Jody%20Powell.jpg> Chain-Smoking Press Secretary, knows me best."},
-{searchString: "Georgia Mafia", explanationText: "<img src=https://files.catbox.moe/d5bw4k.png> Press-coined term for my ''unorthodox and unusual'' Cabinet."},
-
-// Political people
-{searchString: "Ralph Nader", explanationText: "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/cd96e234aca7959f04f18c4e4f0bd0385288c771.png> Patron saint of big government busybodies everywhere, and someone I have to kiss up to, whether I like it or not"},
-{searchString: "Nader", explanationText: "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/cd96e234aca7959f04f18c4e4f0bd0385288c771.png> Patron saint of big government busybodies everywhere, and someone I have to kiss up to, whether I like it or not"},
-{searchString: "Consumer Protection Agency", explanationText: "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/CPA.jpg> Nader's baby."},
-{searchString: "Nixon", explanationText: "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/Nixon.png> Get thee behind me, Satan."},
+{searchString: "Tooltip", explanationText: "<img src=image.png> Placeholder."},
       
 ];
 
