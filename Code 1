@@ -790,4 +790,144 @@ document.addEventListener("click", function (event) {
     }
   }
 });
+
+
+campaignTrail_temp.achievements = {
+ "There He Goes Again" : {
+    "image" : "https://i.imgur.com/woAOWVG.jpeg",
+    "description" : "Defeat Ronald Reagan.",
+    "cannotBeCheated" : true
+  },
+  "Famous Last Words" : {
+    "image" : "https://i.imgur.com/mp5vxFM.jpeg",
+    "description" : "Defeat John Connally.",
+    "cannotBeCheated" : true
+  },
+  "Come and Go" : {
+    "image" : "https://i.imgur.com/VOXu7Rh.jpeg",
+    "description" : "Defeat Nelson Rockefeller.",
+    "cannotBeCheated" : true
+  },
+  "Mo, Left Turns" : {
+    "image" : "https://i.imgur.com/WIc0tf3.png",
+    "description" : "Defeat a demagogue and his replacement.",
+    "cannotBeCheated" : true
+  },
+  "It's Not Time" : {
+    "image" : "https://i.imgur.com/m4ZQJm1.png",
+    "description" : "Defeat James Buckley.",
+    "cannotBeCheated" : true
+  },
+  "Uncounted" : {
+    "image" : "https://i.imgur.com/7hdwDE3.jpeg",
+    "description" : "Defeat William Westmoreland.",
+    "cannotBeCheated" : true
+  },
+  "Great Duplicity" : {
+    "image" : "https://i.imgur.com/05Pilh6.jpeg",
+    "description" : "Defeat John Anderson.",
+    "cannotBeCheated" : true
+  },
+  "Cotton Pickin' Minute" : {
+    "image" : "https://i.imgur.com/9OIoHbi.jpeg",
+    "description" : "Defeat Evan Mecham.",
+    "cannotBeCheated" : true
+  },
+  "Hail and Farewell" : {
+    "image" : "https://i.imgur.com/nBBxHkP.png",
+    "description" : "Cut down a compromise.",
+    "cannotBeCheated" : true
+  },
+  "Transactional Politics" : {
+    "image" : "https://i.imgur.com/v62zciN.jpeg",
+    "description" : "Pass the demogrant.",
+    "cannotBeCheated" : true
+  },
+  "Eighteenth Century Fox" : {
+    "image" : "https://i.imgur.com/PQZNuPE.png",
+    "description" : "Come home.",
+    "cannotBeCheated" : true
+  },
+  "Strange Redfellows" : {
+    "image" : "https://i.imgur.com/fmQVLeA.jpeg",
+    "description" : "Invade Cambodia.",
+    "cannotBeCheated" : true
+  },
+  }
+
+// Tooltips
+function addDynamicCSS() {
+  var css = `
+      .inner_window_question h3 .mytooltip{
+          background-color: lightskyblue;
+      }
+
+      .mytooltip {
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+          background-color: lightblue;
+      }
+
+      .mytooltip .mytooltiptext {
+          width: 240px;
+          background-color: lightblue;
+          color: black;
+          text-align: center;
+          border-radius: 6px;
+          padding: 10px;
+          position: absolute;
+          z-index: 99;
+          bottom: 20%;
+          left: 20%;
+          margin-left: -90px;
+          opacity: 0;
+          transition: opacity 0.3s;
+          border: 1px solid black;
+          pointer-events: none;
+          font-size: 13px !important;
+          line-height: 1.5em !important;
+          font-weight: normal !important;
+          font-style: normal !important;
+      }
+
+      .mytooltip .mytooltiptext img {
+          max-width: 240px;
+          height: auto;
+      }
+
+      .mytooltip:hover .mytooltiptext {
+          opacity: 1;
+          transition-delay: 0.5s;
+      }
+  `;
+
+  var styleElem = document.createElement('style');
+  styleElem.type = 'text/css';
+  
+  styleElem.appendChild(document.createTextNode(css));
+  
+  document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+// Personal people
+{searchString: "Ham", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Hamilton%20Jordan.jpg> Has been set up for a great big fall."},
+{searchString: "Hamilton", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Hamilton%20Jordan.jpg> Has been set up for a great big fall."},
+{searchString: "Hamilton Jordan", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Hamilton%20Jordan.jpg> Has been set up for a great big fall."},
+{searchString: "Jody", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Jody%20Powell.jpg> Chain-Smoking Press Secretary, knows me best."},
+{searchString: "Jody Powell", explanationText: "<img src=https://file.garden/aOp8cCiQ5ho9r5b1/1980%3A%20President%20of%20What%3F%20Assets/Tooltips/Jody%20Powell.jpg> Chain-Smoking Press Secretary, knows me best."},
+{searchString: "Georgia Mafia", explanationText: "<img src=https://files.catbox.moe/d5bw4k.png> Press-coined term for my ''unorthodox and unusual'' Cabinet."},
+
+// Political people
+{searchString: "Ralph Nader", explanationText: "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/cd96e234aca7959f04f18c4e4f0bd0385288c771.png> Patron saint of big government busybodies everywhere, and someone I have to kiss up to, whether I like it or not"},
+{searchString: "Nader", explanationText: "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/cd96e234aca7959f04f18c4e4f0bd0385288c771.png> Patron saint of big government busybodies everywhere, and someone I have to kiss up to, whether I like it or not"},
+{searchString: "Consumer Protection Agency", explanationText: "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/CPA.jpg> Nader's baby."},
+{searchString: "Nixon", explanationText: "<img src=https://file.garden/Z7qfmQZIZjO_xV5N/Nixon.png> Get thee behind me, Satan."},
+      
+];
+
 //#endcode
