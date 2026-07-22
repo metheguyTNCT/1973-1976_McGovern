@@ -1,0 +1,25 @@
+vpTable = {
+    "George McGovern" : vpName,
+    
+    "Ronald Reagan" : "Charles Percy",
+    "John Connally" : "Guy Vander Jagt",
+    "John Ashbrook" : "Melvin Laird", 
+    "Nelson Rockefeller" : "Howard Baker",
+    "James Buckley" : "Arch Moore",
+    "William Westmoreland" : "Robert Ray",
+    "John Anderson" : "Daniel J. Evans",
+    "Evan Mecham" : "Phil Crane",
+    "William Milliken" : "Paul Laxalt",
+    
+    "Jesse Helms" : "Bo Callaway",
+    "Arthur Blessitt" : "Ellen McCormack",
+    "Howard Jarvis" : "Ernie Fitzgerald",
+    "Lester Maddox" : "Bill Shearer",
+    "Nelson Bunker Hunt" : "Arthur Ravenal",
+
+    
+    "Ralph Nader" : "Tony Mazzocchi",
+    "Eugene McCarthy" : "Paul McCloskey",
+    "Robert Heinlein" : "Howard Zinn",
+    "Nobody for President" : "Wavy Gravy",
+}
