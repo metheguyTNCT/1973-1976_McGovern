@@ -429,7 +429,7 @@ document.body.background = "https://i.imgur.com/AePBYEw.jpeg";
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffe3bf!important;}</style>";
 
 HistHexcolour=["#852955","#788cad","#8ca172","#62386b"];
-    HistName=[" John Connally"," George McGovern"," Eugene McCarthy"," Morton Blackwell"];
+    HistName=[" John Connally"," George McGovern"," Eugene McCarthy"," Arthur Blessitt"];
     HistEV=[310,228,0,0];
     HistPV=["38,650,408","37,348,707","963,932","955,251"];
     HistPVP=["49.6%","47.9%","1.2%","1.2%"];
