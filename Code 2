@@ -3,7 +3,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 422,
         "fields": {
-            "description": "You have selected Walter Mondale as your running mate. Can you speak a little more about that?"
+            "description": "Tooltip?"
         }
     },
     {
