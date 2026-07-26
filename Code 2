@@ -14031,10 +14031,10 @@ const originalElectionNight = electionNight;
 electionNight = function (...args) {
   const electionPlaylist = new Playlist();
   const electionSong = new Song(
-    "Visions Of A New World - Phase II",
-    "Lonnie Smith and the Cosmic Echoes",
-    "https://i.scdn.co/image/ab67616d0000b2735f923df4760c8e4905c7f5c1",
-    "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/ANewWorld.mp3"
+    "Goin' home",
+    "Muzak Orchestra",
+    "https://i.scdn.co/image/ab67616d0000b273c997278a71ec1f0f247cefe1",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Muzak.mp3"
   );
   electionPlaylist.addSong(electionSong);
   changePlaylist(electionPlaylist);
