@@ -564,7 +564,7 @@ function setupMusicPlayer() {
         ["Both Sides Now", "The Singers Unlimited", "https://i.scdn.co/image/ab67616d0000b273245d1a688da0f438160dde3c", "https://file.garden/Z7qfmQZIZjO_xV5N/BothSidesNow.mp3"],
         ["Takin' It to the Streets", "The Doobie Brothers", "https://i.scdn.co/image/ab67616d00001e02d753838669bd212bae73e167", "https://file.garden/Z7qfmQZIZjO_xV5N/TakingItToTheStreets.mp3"],
         ["New Kid in Town", "Eagles", "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778", "https://file.garden/Z7qfmQZIZjO_xV5N/New%20Kid%20in%20Town.mp3"],
-        ["Showdown", "Electric Light Orchestra", "https://i.scdn.co/image/ab67616d00001e02ee61adb791adf3f8b4132ae3", "https://file.garden/Z7qfmQZIZjO_xV5N/Showdown.mp3"],
+        ["Visions Of A New World - Phase II", "Lonnie Smith and the Cosmic Echoes", "https://i.scdn.co/image/ab67616d0000b2735f923df4760c8e4905c7f5c1", "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/ANewWorld.mp3"],
         ["(What's So Funny 'Bout) Peace, Love, and Understanding", "Brinsley Schwarz", "https://i.scdn.co/image/ab67616d0000b273efaac98aaa6dcd4fefff03e3", "https://file.garden/Z7qfmQZIZjO_xV5N/PeaceAndLoveAndUnderstanding.mp3"],
         ["Art for Art's Sake", "10cc", "https://i.scdn.co/image/ab67616d0000b273fd4e414e73a35d56f0e0c08d", "https://file.garden/Z7qfmQZIZjO_xV5N/ArtForArtsSake.mp3"]
     ];
