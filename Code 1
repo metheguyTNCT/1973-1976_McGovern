@@ -332,7 +332,7 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "metheguy. Thanks to Trystant for the music player"
+campaignTrail_temp.credits = "metheguy and others"
 
 campaignTrail_temp.global_parameter_json = [
     {
