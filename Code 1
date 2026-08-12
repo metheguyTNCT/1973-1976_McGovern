@@ -128,7 +128,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>You didn't pick Phil Hart to make headlines. You picked him to reassure an establishment terrified of you and what you represent him. And so he did, and so he does. Even his opponents can't help but like him. The Conscience of the Senate plugs away, whipping support for your agenda in the halls of Congress and generally fighting the good fight.</p><p>In an ordinary world, there'd be no reason at all to drop Hart, or even take note of him at all. But his time is running out. Hart has already informed you that he will not be seeking re-election because of health concerns. You wish him well, but that means you'll have to find a new partner for '76.</p>",
+            "description_as_running_mate": "<p>Abe Ribicoff, as a long-standing ally of yours and a well-respected liberal grandee in the party, was an obvious choice for your running mate. It took a lot of negotiating to get him to accept the position, and he, along with most Americans, expected this to be just the last act of a storied career, and surely found it disagreeable to cap things off on a losing ticket.</p><p>Now that you're in the White House, it's doubtful whether Ribicoff will be much of a help to you. While undoubtedly enjoying warmer relations with the party leadership than you, Ribicoff is by now an old man, who's already told you he has no intentions of playing campaigner. In all likelihood, he's going to, like most Vice Presidents, be simply there for four years. It remains to be seen if that will suffice.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -976,9 +976,9 @@ campaignTrail_temp.achievements = {
     "description" : "Defeat John Anderson.",
     "cannotBeCheated" : true
   },
-  "Cotton Pickin' Minute" : {
-    "image" : "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Mecham.jpg",
-    "description" : "Defeat Evan Mecham.",
+  "One Hundred More" : {
+    "image" : "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Helms.jpg",
+    "description" : "Defeat Jesse Helms.",
     "cannotBeCheated" : true
   },
   "Hail and Farewell" : {
