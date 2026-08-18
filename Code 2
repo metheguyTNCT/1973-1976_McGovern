@@ -3,14 +3,14 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 422,
         "fields": {
-            "description": "Cabinet selection"
+            "description": "aight u president now. whos gon be in yo cabiney georgie"
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 415,
         "fields": {
-            "description": "Nixon investigation"
+            "description": "nixons a little shit. investigate him? If so, how?"
         }
     },
     {
@@ -13963,69 +13963,85 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
-vpTable = {
-    "George McGovern" : vpName,
-    
-    "Ronald Reagan" : "Charles Percy",
-    "John Connally" : "Guy Vander Jagt",
-    "Charles Percy" : "Paul Laxalt",
-    "Spiro Agnew" : "you cheated",
-    "Howard Baker" : "Melvin Laird",
-    "Nelson Rockefeller" : "Bob Dole",
-    "James Buckley" : "Arch Moore",
-    "William Westmoreland" : "Robert Ray",
-    "John Anderson" : "Daniel J. Evans",
-    "Jesse Helms" : "Meldrim Thomson",
-    "William Milliken" : "Paul Laxalt",
-    "The Republicans" : "George Bush",
+function getTooltips(str) {
+    let matches = [];
+
+    tooltipList.forEach((tooltip, index) => {
+        // Adjust the regex to match searchString potentially surrounded by “ and followed by optional punctuation
+        let regex = new RegExp(`(?<=\\b|\\s|^|“)${tooltip.searchString}(?=[.,;!?]?\\b|\\s|”|$)`, 'g');
 
 
-    "Evan Mecham" : "Frank Rizzo",
-    "Arthur Blessitt" : "Ellen McCormack",
-    "Howard Jarvis" : "H.R. Gross",
-    "Lester Maddox" : "Bill Shearer",
-    "Nelson Bunker Hunt" : "Arthur Ravenal",
-
-    
-    "Ralph Nader" : "Tony Mazzocchi",
-    "Eugene McCarthy" : "Paul McCloskey",
-    "Robert Heinlein" : "Howard Zinn",
-    "Nobody for President" : "Wavy Gravy",
-}
-
-vpTableHistorical = {
-    "⠀John Connally" : "Guy Vander Jagt",
-    "⠀George McGovern" : "Abraham Ribicoff",
-    "⠀Eugene McCarthy" : "Paul McCloskey",
-    "⠀Arthur Blessitt" : "Ellen McCormack",
-}
-HistHexcolour=["#852955","#788cad","#8ca172","#62386b"];
-    HistName=[" John Connally"," George McGovern"," Eugene McCarthy"," Arthur Blessitt"];
-    HistEV=[310,228,0,0];
-    HistPV=["38,650,408","37,348,707","963,932","955,251"];
-    HistPVP=["49.6%","47.9%","1.2%","1.2%"];
-
-function onGameWindowChangeCandidates() {
-        const resultsTableHolder = document.getElementById("overall_details_container");
-
-        if(!resultsTableHolder || resultsTableHolder.classList.contains("done")) {
-            return;
+        let match;
+        while ((match = regex.exec(str)) !== null) {
+            matches.push({
+                start: match.index + (match[0].startsWith('“') ? 1 : 0), // Adjust for potential starting “
+                end: match.index + match[0].length - (match[0].endsWith('”') ? 1 : 0) - (match[2] ? 1 : 0),
+                tooltipIndex: index
+            });
         }
+    });
 
-        resultsTableHolder.classList.add("done");
+    // Sort by starting position; if two start at the same position, longer match comes first
+    matches.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
 
-        const resultsTable = resultsTableHolder.childNodes[3].childNodes[3].children[0];
-        
-        for(let i = 0; i < resultsTable.children.length; i++) {
-            const row = resultsTable.children[i];
-            let name = row.firstChild.innerText;
-            row.insertCell(1);
-            if(name) {
-                name = name.replaceAll("-", "").trim();
-                console.log("name is:" + name)
-            }
+    // Filter out overlaps
+    for (let i = 0; i < matches.length - 1;) {
+        if (matches[i + 1].start < matches[i].end) {
+            matches.splice(i + 1, 1); // Remove the next match since it overlaps
+        } else {
+            i++; // Move to next match
+        }
+    }
 
-            if(i == 0) {
+    return matches;
+}
+function applyTooltips(str) {
+    const matches = getTooltips(str);
+    let result = '';
+    let lastIndex = 0;
+
+    matches.forEach(match => {
+        const tooltip = tooltipList[match.tooltipIndex];
+        result += str.slice(lastIndex, match.start);
+        result += `<span class='mytooltip'>${tooltip.searchString}<span class='mytooltiptext'>${tooltip.explanationText}</span></span>`;
+        lastIndex = match.end;
+    });
+
+    result += str.slice(lastIndex); // Add the remainder of the original string
+    return result;
+}
+
+function applyTooltipsToObject(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'string') {
+            obj[key] = applyTooltips(obj[key]);
+        } else if (typeof obj[key] === 'object') {
+            applyTooltipsToObject(obj[key]); // Recursive call
+        }
+    }
+}
+
+applyTooltipsToObject(campaignTrail_temp.questions_json);
+applyTooltipsToObject(campaignTrail_temp.answers_json);
+applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
+
+// This will change the election night song
+const originalElectionNight = electionNight;
+
+electionNight = function (...args) {
+  const electionPlaylist = new Playlist();
+  const electionSong = new Song(
+    "Goin' home",
+    "Muzak Orchestra",
+    "https://i.scdn.co/image/ab67616d0000b273c997278a71ec1f0f247cefe1",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Muzak.mp3"
+  );
+  electionPlaylist.addSong(electionSong);
+  changePlaylist(electionPlaylist);
+
+  return originalElectionNight.apply(this, args);
+};
+
                 row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
             }
             else {
