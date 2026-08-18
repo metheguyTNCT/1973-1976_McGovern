@@ -3,14 +3,14 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 422,
         "fields": {
-            "description": "Tooltip?"
+            "description": "Cabinet selection"
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 415,
         "fields": {
-            "description": "What will be your overall campaign strategy this year?"
+            "description": "Nixon investigation"
         }
     },
     {
@@ -13962,6 +13962,93 @@ campaignTrail_temp.jet_data = [{
     "banner_enabled": true
 }
 ]
+
+vpTable = {
+    "George McGovern" : vpName,
+    
+    "Ronald Reagan" : "Charles Percy",
+    "John Connally" : "Guy Vander Jagt",
+    "Charles Percy" : "Paul Laxalt",
+    "Howard Baker" : "Melvin Laird",
+    "Nelson Rockefeller" : "Bob Dole",
+    "James Buckley" : "Arch Moore",
+    "William Westmoreland" : "Robert Ray",
+    "John Anderson" : "Daniel J. Evans",
+    "Jesse Helms" : "Meldrim Thomson",
+    "William Milliken" : "Kit Bond",
+    
+    "Evan Mecham" : "Frank Rizzo",
+    "Arthur Blessitt" : "Ellen McCormack",
+    "Howard Jarvis" : "H.R. Gross",
+    "Lester Maddox" : "Bill Shearer",
+    "Nelson Bunker Hunt" : "Arthur Ravenal",
+
+    
+    "Ralph Nader" : "Tony Mazzocchi",
+    "Eugene McCarthy" : "Paul McCloskey",
+    "Robert Heinlein" : "Howard Zinn",
+    "Nobody for President" : "Wavy Gravy",
+}
+
+vpTableHistorical = {
+    "⠀John Connally" : "Guy Vander Jagt",
+    "⠀George McGovern" : "Abraham Ribicoff",
+    "⠀Eugene McCarthy" : "Paul McCloskey",
+    "⠀Arthur Blessitt" : "Ellen McCormack",
+}
+HistHexcolour=["#852955","#788cad","#8ca172","#62386b"];
+    HistName=[" John Connally"," George McGovern"," Eugene McCarthy"," Arthur Blessitt"];
+    HistEV=[310,228,0,0];
+    HistPV=["38,650,408","37,348,707","963,932","955,251"];
+    HistPVP=["49.6%","47.9%","1.2%","1.2%"];
+
+function onGameWindowChangeCandidates() {
+        const resultsTableHolder = document.getElementById("overall_details_container");
+
+        if(!resultsTableHolder || resultsTableHolder.classList.contains("done")) {
+            return;
+        }
+
+        resultsTableHolder.classList.add("done");
+
+        const resultsTable = resultsTableHolder.childNodes[3].childNodes[3].children[0];
+        
+        for(let i = 0; i < resultsTable.children.length; i++) {
+            const row = resultsTable.children[i];
+            let name = row.firstChild.innerText;
+            row.insertCell(1);
+            if(name) {
+                name = name.replaceAll("-", "").trim();
+                console.log("name is:" + name)
+            }
+
+            if(i == 0) {
+                row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
+            }
+            else {
+                row.children[1].innerHTML = vpTable[name];
+            }
+        }
+
+        
+        const resultsTableHistorical = resultsTableHolder.childNodes[5].childNodes[3].children[0];
+        
+        for(let i = 0; i < resultsTableHistorical.children.length; i++) {
+            const row = resultsTableHistorical.children[i];
+            let name = row.childNodes[1].innerText;
+            row.insertCell(1);
+            if(name) {
+                name = name.replaceAll("-", "").trim();
+            }
+
+            if(i == 0) {
+                row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
+            }
+            else {
+                row.children[1].innerHTML = vpTableHistorical[name];
+            }
+        }
+}
 
 function getTooltips(str) {
     let matches = [];
