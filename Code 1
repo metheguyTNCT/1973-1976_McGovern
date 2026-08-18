@@ -1062,8 +1062,8 @@ function addDynamicCSS() {
 addDynamicCSS();
 
 tooltipList = [
-{searchString: "Nixon", explanationText: "<img src=https://ibb.co/JWxVPsHq> Placeholder."},
-{searchString: "Richard Nixon", explanationText: "<img src=https://ibb.co/JWxVPsHq> Placeholder."},
+{searchString: "Nixon", explanationText: "<img src=https://i.ibb.co/Gfsyj5R9/gettyimages-1310026475-612x612.jpg> Placeholder."},
+{searchString: "Richard Nixon", explanationText: "<img src=https://i.ibb.co/Gfsyj5R9/gettyimages-1310026475-612x612.jpg> Placeholder."},
       
 ];
 
