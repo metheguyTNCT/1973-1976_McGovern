@@ -558,12 +558,13 @@ function setupMusicPlayer() {
   if (document.getElementById("player")) return;
 
   const defaultSongs = [
-        ["Visions Of A New World - Phase II", "Lonnie Smith and the Cosmic Echoes", "https://i.scdn.co/image/ab67616d0000b2735f923df4760c8e4905c7f5c1", "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/ANewWorld.mp3"],
+        ["Come and Get Your Love", "Redbone", "https://i.scdn.co/image/ab67616d0000b27346814e1b44e54d806753801e", "https://files.catbox.moe/ui91tj.mp3"],
         ["Takin' It to the Streets", "The Doobie Brothers", "https://i.scdn.co/image/ab67616d00001e02d753838669bd212bae73e167", "https://file.garden/Z7qfmQZIZjO_xV5N/TakingItToTheStreets.mp3"],
         ["New Kid in Town", "Eagles", "https://i.scdn.co/image/ab67616d00001e024637341b9f507521afa9a778", "https://file.garden/Z7qfmQZIZjO_xV5N/New%20Kid%20in%20Town.mp3"],
         ["Have A Talk With God", "Stevie Wonder", "https://i.scdn.co/image/ab67616d0000b2732fee61bfec596bb6f5447c50", "https://audio.jukehost.co.uk/019e0a38-187a-7304-8e02-aa90375456a9"],
         ["Whatever Gets You Thru the Night", "John Lennon", "https://i.scdn.co/image/ab67616d0000b2733ce1e4c0ab2ed4d9d74a8d7c", "https://files.catbox.moe/ekrclp.mp3"],
-        ["Art for Art's Sake", "10cc", "https://i.scdn.co/image/ab67616d0000b273fd4e414e73a35d56f0e0c08d", "https://file.garden/Z7qfmQZIZjO_xV5N/ArtForArtsSake.mp3"]
+        ["Art for Art's Sake", "10cc", "https://i.scdn.co/image/ab67616d0000b273fd4e414e73a35d56f0e0c08d", "https://file.garden/Z7qfmQZIZjO_xV5N/ArtForArtsSake.mp3"],
+        ["Visions Of A New World - Phase II", "Lonnie Smith and the Cosmic Echoes", "https://i.scdn.co/image/ab67616d0000b2735f923df4760c8e4905c7f5c1", "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/ANewWorld.mp3"]
   ];
 
   if (activePlaylist.songs.length === 0) {
@@ -956,7 +957,7 @@ campaignTrail_temp.achievements = {
     "description" : "Defeat Nelson Rockefeller.",
     "cannotBeCheated" : true
   },
-  "Lining the Newspaper" : {
+  "My Kind of Guy" : {
     "image" : "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Agnew.png",
     "description" : "Defeat a demagogue and his replacement.",
     "cannotBeCheated" : true
