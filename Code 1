@@ -1082,6 +1082,8 @@ tooltipList = [
 {searchString: "Shriver", explanationText: "<img src=https://i.imgur.com/MqP8Bf7.jpeg> Your Secretary of State. Placeholder."},
 {searchString: "Lyndon Johnson", explanationText: "<img src=https://i.imgur.com/1JPb5Ok.png> Well, it's bad form to speak ill of the dead..."},
 {searchString: "Johnson", explanationText: "<img src=https://i.imgur.com/1JPb5Ok.png> Well, it's bad form to speak ill of the dead..."},
+{searchString: "Cyrus Vance", explanationText: "<img src=https://i.imgur.com/PC6gTnX.jpeg> Placeholder."},
+{searchString: "Vance", explanationText: "<img src=https://i.imgur.com/PC6gTnX.jpeg> Placeholder."},
 ];
 
 //#endcode
