@@ -13886,25 +13886,6 @@ campaignTrail_temp.jet_data = [{
     "player_candidate": 91,
     "banner_enabled": true
 }
-
-// This will change the election night song
-const originalElectionNight = electionNight;
-
-electionNight = function (...args) {
-  const electionPlaylist = new Playlist();
-  const electionSong = new Song(
-    "Goin' home",
-    "Muzak Orchestra",
-    "https://i.scdn.co/image/ab67616d0000b273c997278a71ec1f0f247cefe1",
-    "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Muzak.mp3"
-  );
-  electionPlaylist.addSong(electionSong);
-  changePlaylist(electionPlaylist);
-
-  return originalElectionNight.apply(this, args);
-};
-
-
 ]
 
 // This will change the election night song
@@ -13923,5 +13904,3 @@ electionNight = function (...args) {
 
   return originalElectionNight.apply(this, args);
 };
-
-
