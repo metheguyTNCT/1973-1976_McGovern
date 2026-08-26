@@ -3,14 +3,14 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 422,
         "fields": {
-            "description": "aight u president now. whos gon be in yo cabiney georgie"
+            "description": "Nixon"
         }
     },
     {
         "model": "campaign_trail.question",
         "pk": 415,
         "fields": {
-            "description": "nixons a little shit. investigate him? If so, how?"
+            "description": "Lyndon Johnson is dead, and his vision of America seems to be following him into the grave.  Nonetheless, as you sweat in the Texas sun to eulogize him, it sets you thinking. If he couldn't manage juggling Vietnam and his domestic agenda at once, what chance do you have? And so, as you climb into your suite on Air Force One, you have a decision to make. Who's the woman you really love?"
         }
     },
     {
@@ -181,18 +181,10 @@ campaignTrail_temp.questions_json = [
 campaignTrail_temp.answers_json = [
     {
         "model": "campaign_trail.answer",
-        "pk": 3509,
-        "fields": {
-            "question": 415,
-            "description": "People want an outsider in government. I'm in a unique position to unite the country and move it towards a newer, more open chapter in its history."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 3510,
         "fields": {
             "question": 415,
-            "description": "I know a lot of Democrats are concerned that I'm too moderate. I will make it a point to express support for a staunch liberal platform this fall."
+            "description": "Let's not kid ourselves here. I was elected to end the needless bloodshed in Vietnam. It would be a betrayal of the nation's trust to pretend otherwise. Let's get Sarge, Vance, and the rest together and we'll come up with an exit strategy."
         }
     },
     {
@@ -200,15 +192,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3511,
         "fields": {
             "question": 415,
-            "description": "I won my party's nomination as a moderate, conciliatory politician. We will continue this strategy in the general election, and above all we'll avoid the mistakes of McGovern in '72."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 3512,
-        "fields": {
-            "question": 415,
-            "description": "Gerald Ford pardoned Nixon, vetoed a school lunch program, and selected Bob Dole as his running mate. We need to remind the American people that he is far too much of a conservative insider to be President."
+            "description": "It wouldn't hurt to put the focus on our agenda to make this country a fairer one. You know, welfare reform, the demogrant, all of that. The Great Society was a good start, but we still have to do more."
         }
     },
     {
@@ -1564,21 +1548,21 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 32,
         "fields": {
-            "name": "Honest Government",
+            "name": "Brookingsgate",
             "description": "",
-            "stance_1": "Not Important",
+            "stance_1": "Witch Hunt",
             "stance_desc_1": "",
-            "stance_2": "Not Important",
+            "stance_2": "Everybody Does It",
             "stance_desc_2": "",
-            "stance_3": "Not Important",
+            "stance_3": "Bad Look",
             "stance_desc_3": "",
-            "stance_4": "Neutral",
+            "stance_4": "Concerned",
             "stance_desc_4": "",
-            "stance_5": "Important",
+            "stance_5": "Investigate ",
             "stance_desc_5": "",
-            "stance_6": "Important",
+            "stance_6": "Investigate ",
             "stance_desc_6": "",
-            "stance_7": "Important",
+            "stance_7": "Jail to the Chief",
             "stance_desc_7": "",
             "election": 10
         }
@@ -1633,11 +1617,11 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 35,
         "fields": {
-            "name": "Federal Spending",
+            "name": "Government Intervention",
             "description": "",
-            "stance_1": "Very Conservative",
+            "stance_1": "Rugged Individualism",
             "stance_desc_1": "",
-            "stance_2": "Conservative",
+            "stance_2": "New Federalism",
             "stance_desc_2": "",
             "stance_3": "Conservative",
             "stance_desc_3": "",
@@ -1645,9 +1629,9 @@ campaignTrail_temp.issues_json = [
             "stance_desc_4": "",
             "stance_5": "Liberal",
             "stance_desc_5": "",
-            "stance_6": "Liberal",
+            "stance_6": "Great Society",
             "stance_desc_6": "",
-            "stance_7": "Very Liberal",
+            "stance_7": "Spread the Wealth",
             "stance_desc_7": "",
             "election": 10
         }
@@ -1656,21 +1640,21 @@ campaignTrail_temp.issues_json = [
         "model": "campaign_trail.issue",
         "pk": 36,
         "fields": {
-            "name": "National Defense",
+            "name": "War and Peace",
             "description": "",
-            "stance_1": "Very Hawkish",
+            "stance_1": "Vulture",
             "stance_desc_1": "",
-            "stance_2": "Hawkish",
+            "stance_2": "Hawk",
             "stance_desc_2": "",
-            "stance_3": "Moderate",
+            "stance_3": "Hawk",
             "stance_desc_3": "",
-            "stance_4": "Moderate",
+            "stance_4": "Pigeon",
             "stance_desc_4": "",
-            "stance_5": "Moderate",
+            "stance_5": "Dove",
             "stance_desc_5": "",
-            "stance_6": "Dovish",
+            "stance_6": "Dove",
             "stance_desc_6": "",
-            "stance_7": "Very Dovish",
+            "stance_7": "Ostrich",
             "stance_desc_7": "",
             "election": 10
         }
@@ -6393,16 +6377,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1342,
-        "fields": {
-            "answer": 3512,
-            "candidate": 91,
-            "affected_candidate": 92,
-            "global_multiplier": 0.008
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1343,
         "fields": {
             "answer": 3514,
@@ -7356,16 +7330,6 @@ campaignTrail_temp.answer_score_global_json = [
 campaignTrail_temp.answer_score_issue_json = [
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 1048,
-        "fields": {
-            "answer": 3509,
-            "issue": 32,
-            "issue_score": 0.8,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 1049,
         "fields": {
             "answer": 3510,
@@ -7461,16 +7425,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 3511,
             "issue": 36,
             "issue_score": 0.25,
-            "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1059,
-        "fields": {
-            "answer": 3512,
-            "issue": 32,
-            "issue_score": 0.5,
             "issue_importance": 3
         }
     },
@@ -8297,17 +8251,6 @@ campaignTrail_temp.answer_score_issue_json = [
 ];
 
 campaignTrail_temp.answer_score_state_json = [
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 12240,
-        "fields": {
-            "answer": 3512,
-            "state": 247,
-            "candidate": 91,
-            "affected_candidate": 91,
-            "state_multiplier": -0.02
-        }
-    },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 12241,
@@ -12680,20 +12623,11 @@ campaignTrail_temp.answer_score_state_json = [
 campaignTrail_temp.answer_feedback_json = [
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 999,
-        "fields": {
-            "answer": 3509,
-            "candidate": 91,
-            "answer_feedback": "Your response is really in tune with the mood of the country."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 1000,
         "fields": {
             "answer": 3510,
             "candidate": 91,
-            "answer_feedback": "Political issues are secondary to character issues, and the Democrats are anxious to win after '68 and '72. "
+            "answer_feedback": "feedback once I bone up on nam"
         }
     },
     {
@@ -12702,16 +12636,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3511,
             "candidate": 91,
-            "answer_feedback": "Political issues are secondary to character issues, and there's no need to pigeonhole yourself yet."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 1002,
-        "fields": {
-            "answer": 3512,
-            "candidate": 91,
-            "answer_feedback": "Voters want honesty in government, but this message sounds a little strident."
+            "answer_feedback": "Your campaign staff largely agrees- this is smart politics, and besides, it's not like you said you'd ignore  Vietnam or anything. Still, the resentment begins to bubble over in the campuses. You're just another politician, the Yippies and hippies start whispering to each other."
         }
     },
     {
@@ -13940,8 +13865,8 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ];
 
-campaignTrail_temp.candidate_image_url = "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/McGovern.png";
-campaignTrail_temp.running_mate_image_url = "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Ribicoff.png";
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/8ELat74.png";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/9N9iGDf.png";
 campaignTrail_temp.candidate_last_name = "McGovern";
 campaignTrail_temp.running_mate_last_name = "Ribicoff";
 
@@ -13954,198 +13879,31 @@ campaignTrail_temp.jet_data = [{
     },
     "banner_data": {
         "canName": "McGovern",
-        "canImage": "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/McGovern.png",
+        "canImage": "https://i.imgur.com/8ELat74.png",
         "runName": "Ribicoff",
-        "runImage": "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Ribicoff.png"
+        "runImage": "https://i.imgur.com/9N9iGDf.png"
     },
     "player_candidate": 91,
     "banner_enabled": true
 }
+
+// This will change the election night song
+const originalElectionNight = electionNight;
+
+electionNight = function (...args) {
+  const electionPlaylist = new Playlist();
+  const electionSong = new Song(
+    "Goin' home",
+    "Muzak Orchestra",
+    "https://i.scdn.co/image/ab67616d0000b273c997278a71ec1f0f247cefe1",
+    "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Muzak.mp3"
+  );
+  electionPlaylist.addSong(electionSong);
+  changePlaylist(electionPlaylist);
+
+  return originalElectionNight.apply(this, args);
+};
+
+
 ]
-
-function getTooltips(str) {
-    let matches = [];
-
-    tooltipList.forEach((tooltip, index) => {
-        // Adjust the regex to match searchString potentially surrounded by “ and followed by optional punctuation
-        let regex = new RegExp(`(?<=\\b|\\s|^|“)${tooltip.searchString}(?=[.,;!?]?\\b|\\s|”|$)`, 'g');
-
-
-        let match;
-        while ((match = regex.exec(str)) !== null) {
-            matches.push({
-                start: match.index + (match[0].startsWith('“') ? 1 : 0), // Adjust for potential starting “
-                end: match.index + match[0].length - (match[0].endsWith('”') ? 1 : 0) - (match[2] ? 1 : 0),
-                tooltipIndex: index
-            });
-        }
-    });
-
-    // Sort by starting position; if two start at the same position, longer match comes first
-    matches.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
-
-    // Filter out overlaps
-    for (let i = 0; i < matches.length - 1;) {
-        if (matches[i + 1].start < matches[i].end) {
-            matches.splice(i + 1, 1); // Remove the next match since it overlaps
-        } else {
-            i++; // Move to next match
-        }
-    }
-
-    return matches;
-}
-function applyTooltips(str) {
-    const matches = getTooltips(str);
-    let result = '';
-    let lastIndex = 0;
-
-    matches.forEach(match => {
-        const tooltip = tooltipList[match.tooltipIndex];
-        result += str.slice(lastIndex, match.start);
-        result += `<span class='mytooltip'>${tooltip.searchString}<span class='mytooltiptext'>${tooltip.explanationText}</span></span>`;
-        lastIndex = match.end;
-    });
-
-    result += str.slice(lastIndex); // Add the remainder of the original string
-    return result;
-}
-
-function applyTooltipsToObject(obj) {
-    for (let key in obj) {
-        if (typeof obj[key] === 'string') {
-            obj[key] = applyTooltips(obj[key]);
-        } else if (typeof obj[key] === 'object') {
-            applyTooltipsToObject(obj[key]); // Recursive call
-        }
-    }
-}
-
-applyTooltipsToObject(campaignTrail_temp.questions_json);
-applyTooltipsToObject(campaignTrail_temp.answers_json);
-applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
-
-// This will change the election night song
-const originalElectionNight = electionNight;
-
-electionNight = function (...args) {
-  const electionPlaylist = new Playlist();
-  const electionSong = new Song(
-    "Goin' home",
-    "Muzak Orchestra",
-    "https://i.scdn.co/image/ab67616d0000b273c997278a71ec1f0f247cefe1",
-    "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Muzak.mp3"
-  );
-  electionPlaylist.addSong(electionSong);
-  changePlaylist(electionPlaylist);
-
-  return originalElectionNight.apply(this, args);
-};
-
-                row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
-            }
-            else {
-                row.children[1].innerHTML = vpTable[name];
-            }
-        }
-
-        
-        const resultsTableHistorical = resultsTableHolder.childNodes[5].childNodes[3].children[0];
-        
-        for(let i = 0; i < resultsTableHistorical.children.length; i++) {
-            const row = resultsTableHistorical.children[i];
-            let name = row.childNodes[1].innerText;
-            row.insertCell(1);
-            if(name) {
-                name = name.replaceAll("-", "").trim();
-            }
-
-            if(i == 0) {
-                row.children[1].innerHTML = `<span style="font-weight:bold">Running Mate<span>`;
-            }
-            else {
-                row.children[1].innerHTML = vpTableHistorical[name];
-            }
-        }
-}
-
-function getTooltips(str) {
-    let matches = [];
-
-    tooltipList.forEach((tooltip, index) => {
-        // Adjust the regex to match searchString potentially surrounded by “ and followed by optional punctuation
-        let regex = new RegExp(`(?<=\\b|\\s|^|“)${tooltip.searchString}(?=[.,;!?]?\\b|\\s|”|$)`, 'g');
-
-
-        let match;
-        while ((match = regex.exec(str)) !== null) {
-            matches.push({
-                start: match.index + (match[0].startsWith('“') ? 1 : 0), // Adjust for potential starting “
-                end: match.index + match[0].length - (match[0].endsWith('”') ? 1 : 0) - (match[2] ? 1 : 0),
-                tooltipIndex: index
-            });
-        }
-    });
-
-    // Sort by starting position; if two start at the same position, longer match comes first
-    matches.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
-
-    // Filter out overlaps
-    for (let i = 0; i < matches.length - 1;) {
-        if (matches[i + 1].start < matches[i].end) {
-            matches.splice(i + 1, 1); // Remove the next match since it overlaps
-        } else {
-            i++; // Move to next match
-        }
-    }
-
-    return matches;
-}
-function applyTooltips(str) {
-    const matches = getTooltips(str);
-    let result = '';
-    let lastIndex = 0;
-
-    matches.forEach(match => {
-        const tooltip = tooltipList[match.tooltipIndex];
-        result += str.slice(lastIndex, match.start);
-        result += `<span class='mytooltip'>${tooltip.searchString}<span class='mytooltiptext'>${tooltip.explanationText}</span></span>`;
-        lastIndex = match.end;
-    });
-
-    result += str.slice(lastIndex); // Add the remainder of the original string
-    return result;
-}
-
-function applyTooltipsToObject(obj) {
-    for (let key in obj) {
-        if (typeof obj[key] === 'string') {
-            obj[key] = applyTooltips(obj[key]);
-        } else if (typeof obj[key] === 'object') {
-            applyTooltipsToObject(obj[key]); // Recursive call
-        }
-    }
-}
-
-applyTooltipsToObject(campaignTrail_temp.questions_json);
-applyTooltipsToObject(campaignTrail_temp.answers_json);
-applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
-
-// This will change the election night song
-const originalElectionNight = electionNight;
-
-electionNight = function (...args) {
-  const electionPlaylist = new Playlist();
-  const electionSong = new Song(
-    "Goin' home",
-    "Muzak Orchestra",
-    "https://i.scdn.co/image/ab67616d0000b273c997278a71ec1f0f247cefe1",
-    "https://file.garden/Z7qfmQZIZjO_xV5N/Dont_Blame_Me/Muzak.mp3"
-  );
-  electionPlaylist.addSong(electionSong);
-  changePlaylist(electionPlaylist);
-
-  return originalElectionNight.apply(this, args);
-};
-
 
