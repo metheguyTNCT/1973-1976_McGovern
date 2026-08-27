@@ -335,7 +335,7 @@ campaignTrail_temp.running_mate_json = [
   campaignTrail_temp.credits = "<button onclick='credits()'>various people</button>";
   
   credits = function() {
-    credits = ["CREDITS", "Writers - metheguy, Mack A. Rony, imfakeithink", "Coders - platypus", "", "Special thanks to Yes for creating the McGoverning timeline on alternatehistory.com, which this is heavily based on.", "insert anyone else we wanna thank here"]
+    credits = ["Writers - metheguy, Mack A. Rony, imfakeithink", "Coders - platypus, StrawberryMaster for the music player", "", "Special thanks to Yes for creating the McGoverning timeline on alternatehistory.com, which this is heavily based on.", "insert anyone else we wanna thank here"]
     text = "CREDITS:\n\n"
     for (i in credits) {
         text += credits[i] + "\n"
