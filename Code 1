@@ -427,8 +427,16 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "metheguy"
-
+  campaignTrail_temp.credits = "<button onclick='credits()'>metheguy</button>";
+  
+  credits = function() {
+    credits = ["Main developer- metheguy", "Special thanks to Yes for creating the McGoverning timeline on alternatehistory.com, which this is heavily based on, StrawberryMaster for the coding tool this was made in, and 1988TTWH for the music player."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -518,6 +526,11 @@ document.body.background = "https://media.gettyimages.com/id/1161100896/photo/un
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#874829!important;}</style>";
 
+HistHexcolour=["#852955","#788cad","#8ca172","#62386b"];
+    HistName=[" John Connally"," George McGovern"," Nobody for President"," Arthur Blessitt"];
+    HistEV=[310,228,0,0];
+    HistPV=["38,650,408","37,348,707","963,932","955,251"];
+    HistPVP=["49.6%","47.9%","1.2%","1.2%"];
 
 $("#game_start").click((event) => {
   event.preventDefault();
