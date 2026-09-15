@@ -1,3 +1,5 @@
+RecReading=true
+
 var hasMusic = false;
 
 campaignTrail_temp.election_json = [
@@ -10,9 +12,9 @@ campaignTrail_temp.election_json = [
             "image_url": "https://i.imgur.com/L5NhtbZ.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://i.imgur.com/RgJWpYb.png",
-            "recommended_reading": "<div style='overflow-y:scroll;height:370px;'><h2 style='margin-top: 0.5em;'>Sources</h4><a href=\"https://www.amazon.com/What-Takes-Way-White-House/dp/0679746498\" target=\"_blank\">Richard Ben Cramer- What It Takes</a><br><a href=\"https://archive.org/details/choosemeportrait0000grac\" target=\"_blank\">Arthur Grace- Choose Me: Portraits of a Presidential Race</a><br><a href=\"https://slate.com/news-and-politics/2003/07/campaign-2004-field-guide.html\" target=\"_blank\">William Saletan- Slate's Field Guide to the Candidates 2004</a><h4>Canon Results</h4><p><img src=\"https://files.catbox.moe/6mlx9a.webp\" width=\"170px\"><br><br>my first mod's done yaaaay. This was originally gonna be an incumbency sim but we're glutted with those.</p></div>",
+            "recommended_reading": "<div style=\"overflow-y:scroll;height:370px;\"><h2 style=\"margin-top: 0.5em;\">Sources</h2><p><a href=\"https://archive.org/details/presidentialcamp00boll_0\" target=\"_blank\">Paul F. Boller- Presidential Campaigns</a><br><a href=\"https://archive.org/details/oldfacesof1976fe00reev\" target=\"_blank\">Richard Reeves- Old Faces of 1976</a><br><a href=\"https://www.texasmonthly.com/news-politics/the-truth-about-john-connally/\" target=\"_blank\">Paul Burka- The Truth About John Connally</a><br><a href=\"https://archive.org/details/candidates19800000baks/page/n1/mode/2up\" target=\"_blank\">Aram Bakshin- The Candidates 1980</a><br><a href=\"https://archive.org/details/candidates80time0000cong/mode/2up\" target=\"_blank\">Congressional Quarterly- Candidates '80 </a><br><a href=\"https://www.youtube.com/watch?v=OoNCx6wEfc8\" target=\"_blank\">Connally at the 1980 Iowa Debate</a></p><h4>Author's Note</h4><p>My first mod is finally done. This was originally going to be an incumbency sim, but of course that was ridiculous for a first-timer to attempt, so I scaled the idea down. <br>Anyhow, if you hadn't noticed, this mod is far more about Connally than McGovern. Oh well. Sorry, McGovernheads. In fact, I was actually thinking of replacing him with Muskie to give Connally a more generic opponent to bounce off of, but I thought better of it. Here's a wikibox of the canon results.<br><br><img src=\"https://i.imgur.com/nlpd8Q4.png\" width=\"170px\"></p></div>",
             "has_visits": 1,
-            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "no_electoral_majority_image": "https://i.imgur.com/m4bqBue.jpeg",
             "creator": "Dan Bryan",
             "display_year": "1976McGovern"
         }
@@ -71,7 +73,7 @@ campaignTrail_temp.candidate_json = [
         "pk": 93,
         "fields": {
             "first_name": "",
-            "last_name": "Nobody",
+            "last_name": "Nobody for President",
             "election": 10,
             "party": "Independent",
             "state": "Minnesota",
@@ -94,7 +96,7 @@ campaignTrail_temp.candidate_json = [
         "pk": 94,
         "fields": {
             "first_name": "Arthur",
-            "last_name": "Blessitt ",
+            "last_name": "Blessitt/Others",
             "election": 10,
             "party": "Independent",
             "state": "California",
@@ -526,7 +528,7 @@ document.body.background = "https://media.gettyimages.com/id/1161100896/photo/un
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#874829!important;}</style>";
 
-HistHexcolour=["#852955","#788cad","#8ca172","#62386b"];
+HistHexcolour=["#798dad","#788cad","#030406","#FFFFC0"];
     HistName=[" John Connally"," George McGovern"," Nobody for President"," Arthur Blessitt"];
     HistEV=[310,228,0,0];
     HistPV=["38,650,408","37,348,707","963,932","955,251"];
