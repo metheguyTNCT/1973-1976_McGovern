@@ -102,7 +102,7 @@ campaignTrail_temp.candidate_json = [
             "state": "California",
             "priority": 4,
             "description": "''",
-            "color_hex": "#916987",
+            "color_hex": "#FFFFC0",
             "secondary_color_hex": "#FFFFC0",
             "is_active": 0,
             "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5e-CobOOSFSV7r6tguZNd3XRQsq0Dh1RPZY14S3xFcH8rft6tozjSY3E&s=10",
