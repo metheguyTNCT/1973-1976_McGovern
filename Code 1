@@ -72,17 +72,17 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 93,
         "fields": {
-            "first_name": "",
-            "last_name": "Nobody for President",
+            "first_name": "Gus",
+            "last_name": "Hall",
             "election": 10,
-            "party": "Independent",
-            "state": "Minnesota",
+            "party": "Communist",
+            "state": "New York",
             "priority": 3,
             "description": "''",
-            "color_hex": "#030406",
+            "color_hex": "#3f0d0d",
             "secondary_color_hex": "#A1FFA1",
             "is_active": 0,
-            "image_url": "https://overthrownyc.com/wp-content/uploads/2024/07/nobody-white-2.jpg",
+            "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgt24Us_aAakmXIkW0JXVWEUtEB_6JVmcvrimp9GAFRGDu59Zla304-AENYe_YSxUuHXisVrAR4QuH5bPINmL_3-CAestmxuCmuxDH1efCHPhFOTxXm7wLa69KwgvP_K8ia96KwCTLN3Cnf/s1149/Gus+Hall.jpg",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
@@ -528,8 +528,8 @@ document.body.background = "https://media.gettyimages.com/id/1161100896/photo/un
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#874829!important;}</style>";
 
-HistHexcolour=["#798dad","#788cad","#030406","#FFFFC0"];
-    HistName=[" John Connally"," George McGovern"," Nobody for President"," Arthur Blessitt"];
+HistHexcolour=["#852955","#788cad","#3f0d0d","#FFFFC0"];
+    HistName=[" John Connally"," George McGovern"," Gus Hall"," Arthur Blessitt"];
     HistEV=[310,228,0,0];
     HistPV=["38,650,408","37,348,707","963,932","955,251"];
     HistPVP=["49.6%","47.9%","1.2%","1.2%"];
@@ -768,8 +768,8 @@ var soundtracks = {
                 "url": "https://files.catbox.moe/3e8wu9.mp3"
               },
               {
-                "name": "Have A Talk With God - Stevie Wonder",
-                "url": "https://audio.jukehost.co.uk/019e0a38-187a-7304-8e02-aa90375456a9"
+                "name": "Jet - Paul McCartney",
+                "url": "https://files.catbox.moe/981e40.mp3"
               },
               {
                 "name": "New Kid in Town - Eagles",
@@ -788,8 +788,8 @@ var soundtracks = {
                 "url": "https://files.catbox.moe/amkkqq.mp3"
               },
               {
-                "name": "The Payback - James Brown",
-                "url": "https://files.catbox.moe/4g0dsb.mp3"
+                "name": "Abracadabra - Steve Miller Band",
+                "url": "https://files.catbox.moe/uu3rkq.mp3"
               }
           ]
       },
@@ -813,12 +813,12 @@ var soundtracks = {
                 "url": "https://files.catbox.moe/lg6090.mp3"
               },
               {
-                "name": "Abracadabra - Steve Miller Band",
-                "url": "https://files.catbox.moe/uu3rkq.mp3"
+                "name": "The Payback - James Brown",
+                "url": "https://files.catbox.moe/4g0dsb.mp3"
               },
               {
-                "name": "Jet - Paul McCartney",
-                "url": "https://files.catbox.moe/981e40.mp3"
+                "name": "Guilty - Randy Newman",
+                "url": "https://files.catbox.moe/4sg35d.mp3"
               },
               {
                 "name": "In The Hall of the Mountain King - Electric Light Orchestra",
