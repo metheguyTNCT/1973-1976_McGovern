@@ -9,9 +9,9 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 1976,
             "summary": "<p>The brief period of liberal idealism that followed George McGovern's shock victory has subsided into a wave of stagflation-sodden malaise. Into this environment steps two candidates who couldn't be more different.</p><ul><li>Former Treasury Secretary and ex-Democrat John Connally swaggers onto the scene, hoping to draw a forceful contrast to McGovern's weakness while keeping his party in check.</li><li>President McGovern starts on the backfoot. He has to defend his presidency- or at least convince voters it's better than the alternative.</li></ul><p>Can Connally win the battle of personalities? Can McGovern win the battle of ideas? Will the people even care?</p>",
-            "image_url": "https://i.imgur.com/L5NhtbZ.png",
+            "image_url": "https://i.imgur.com/8cCLjgL.png",
             "winning_electoral_vote_number": 270,
-            "advisor_url": "https://i.imgur.com/RgJWpYb.png",
+            "advisor_url": "https://i.imgur.com/9Ne1hAY.png",
             "recommended_reading": "<div style=\"overflow-y:scroll;height:370px;\"><h2 style=\"margin-top: 0.5em;\">Sources</h2><p><a href=\"https://archive.org/details/presidentialcamp00boll_0\" target=\"_blank\">Paul F. Boller- Presidential Campaigns</a><br><a href=\"https://archive.org/details/oldfacesof1976fe00reev\" target=\"_blank\">Richard Reeves- Old Faces of 1976</a><br><a href=\"https://www.texasmonthly.com/news-politics/the-truth-about-john-connally/\" target=\"_blank\">Paul Burka- The Truth About John Connally</a><br><a href=\"https://archive.org/details/candidates19800000baks/page/n1/mode/2up\" target=\"_blank\">Aram Bakshin- The Candidates 1980</a><br><a href=\"https://archive.org/details/candidates80time0000cong/mode/2up\" target=\"_blank\">Congressional Quarterly- Candidates '80 </a><br><a href=\"https://www.youtube.com/watch?v=OoNCx6wEfc8\" target=\"_blank\">Connally at the 1980 Iowa Debate</a></p><h4>Author's Note</h4><p>My first mod is finally done. This was originally going to be an incumbency sim, but of course that was ridiculous for a first-timer to attempt, so I scaled the idea down. <br>Anyhow, if you hadn't noticed, this mod is far more about Connally than McGovern. Oh well. Sorry, McGovernheads. In fact, I was actually thinking of replacing him with Muskie to give Connally a more generic opponent to bounce off of, but I thought better of it. Here's a wikibox of the canon results.<br><br><img src=\"https://i.imgur.com/nlpd8Q4.png\" width=\"170px\"></p></div>",
             "has_visits": 1,
             "no_electoral_majority_image": "https://i.imgur.com/m4bqBue.jpeg",
@@ -22,6 +22,29 @@ campaignTrail_temp.election_json = [
 ]
 
 campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 92,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Connally",
+            "election": 10,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 2,
+            "description": "<p>With John Connally's capture of the nomination, it's been made clear- this certainly isn't your grandfather's Republican Party. No one with eyes to see and ears to hear could possibly mistake Big Bad John for the me-too Republicans of days gone by. No, this is a brand new era for Lincoln's party- still well-heeled, but now brash, loud, and increasingly very, very Southern.</p><p>After taking down the Gipper, you'd think Connally's path to the presidency is wide open. But that's not entirely accurate. While riding high in the polls now, a lot could go wrong. Connally has a thin rope to tread, with the New Right distrusting a Johnny-come-lately and what moderates remain increasingly leery of his outspoken conservatism. Not to mention, the lingering stink of Nixon still follows him. But forget all that. Connally's been preparing for this moment his whole life. He'll be damned if he lets it go to waste.</p>",
+            "color_hex": "#852955",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/RiQ60cH.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can continue to help the United States recover from the Watergate Scandal, the recent recession, and the debacle of Vietnam. In either case, this will be your final term as President. Speculation is sure to be intense on who will replace you. Will it be Ronald Reagan? Ted Kennedy? Or someone else entirely?</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>Hopefully your opponent can make good on his promises to clean up Washington and change the political and moral culture of the country. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "no_electoral_majority_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect your opponent in that manner. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
     {
         "model": "campaign_trail.candidate",
         "pk": 91,
@@ -40,29 +63,6 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can make good on your promises to clean up Washington and change the political and moral culture of the country. If you are successful, there is no reason you cannot run for reelection in 1980. Just be wary of any economic problems, or of some foreign policy crisis that could dent your popularity.</p>",
             "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>As an outsider candidate, this was really your moment to make an impact on American politics and to win a national election. The beltway gossip already has it that Ted Kennedy is the frontrunner for the 1980 nomination. Perhaps you can run again for Governor of Georgia, or make an impact in some other way.</p>",
             "no_electoral_majority_message": "<h3>Wow! You have won in a squeaker.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect you in that manner. Hopefully the closeness of this election doesn't undermine your promises to clean up Washington and unite the people of this country.</p>",
-            "description_as_running_mate": "''",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 92,
-        "fields": {
-            "first_name": "John",
-            "last_name": "Connally",
-            "election": 10,
-            "party": "Republican",
-            "state": "Texas",
-            "priority": 2,
-            "description": "<p>With John Connally's capture of the nomination, it's been made clear- this certainly isn't your grandfather's Republican Party. No one with eyes to see and ears to hear could possibly mistake Big Bad John for the me-too Republicans of days gone by. No, this is a brand new era for Lincoln's party- still well-heeled, but now brash, loud, and increasingly very, very Southern.</p><p>After taking down the Gipper, you'd think Connally's path to the presidency is wide open. But that's not entirely accurate. While riding high in the polls now, a lot could go wrong. Connally has a thin rope to tread, with the New Right distrusting a Johnny-come-lately and what moderates remain increasingly leery of his outspoken conservatism. Not to mention, the lingering stink of Nixon still follows him. But forget all that. Connally's been preparing for this moment his whole life. He'll be damned if he lets it go to waste.</p>",
-            "color_hex": "#852955",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 1,
-            "image_url": "https://i.imgur.com/YcAVnZ7.png",
-            "electoral_victory_message": "<h3>Congratulations! You have won the 1976 Presidential Election.</h3><p>Hopefully you can continue to help the United States recover from the Watergate Scandal, the recent recession, and the debacle of Vietnam. In either case, this will be your final term as President. Speculation is sure to be intense on who will replace you. Will it be Ronald Reagan? Ted Kennedy? Or someone else entirely?</p>",
-            "electoral_loss_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>Hopefully your opponent can make good on his promises to clean up Washington and change the political and moral culture of the country. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
-            "no_electoral_majority_message": "<h3>Sorry, you have lost the 1976 Presidential Election.</h3><p>While the Electoral College ended in a tie, the Democrats have a huge advantage in the House of Representatives and are sure to elect your opponent in that manner. Perhaps you can still play a role in 1980, or seek your old Congressional leadership positions. In any case, you can still take solace in the fact that you did the right thing by pardoning Nixon and moving the country beyond the Watergate episode.</p>",
             "description_as_running_mate": "''",
             "candidate_score": 1,
             "running_mate": false
@@ -533,6 +533,72 @@ HistHexcolour=["#852955","#788cad","#3f0d0d","#FFFFC0"];
     HistEV=[310,228,0,0];
     HistPV=["38,650,408","37,348,707","963,932","955,251"];
     HistPVP=["49.6%","47.9%","1.2%","1.2%"];
+
+function addDynamicCSS() {
+  var css = `
+      .inner_window_question h3 .mytooltip{
+          background-color: pink;
+      }
+
+      .mytooltip {
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+          background-color: pink;
+      }
+
+      .mytooltip .mytooltiptext {
+          width: 240px;
+          background-color: pink;
+          color: black;
+          text-align: center;
+          border-radius: 6px;
+          padding: 10px;
+          position: absolute;
+          z-index: 99;
+          bottom: 20%;
+          left: 20%;
+          margin-left: -90px;
+          opacity: 0;
+          transition: opacity 0.3s;
+          border: 1px solid black;
+          pointer-events: none;
+          font-size: 13px !important;
+          line-height: 1.5em !important;
+          font-weight: normal !important;
+          font-style: normal !important;
+      }
+
+      .mytooltip .mytooltiptext img {
+          max-width: 240px;
+          height: auto;
+      }
+
+      .mytooltip:hover .mytooltiptext {
+          opacity: 1;
+          transition-delay: 0.5s;
+      }
+  `;
+
+  var styleElem = document.createElement('style');
+  styleElem.type = 'text/css';
+  
+  styleElem.appendChild(document.createTextNode(css));
+  
+  document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+
+{searchString: "Charlie", explanationText: "<img src=https://i.imgur.com/0aO459g.jpeg> Charles Schultze, Secretary of the Treasury. An amiable economist of the mainline Keynesian school."}, 
+{searchString: "Vance", explanationText: "<img src=https://i.imgur.com/C1gV2Q8.jpeg> Cyrus Vance, Secretary of Defense."},
+            
+            
+];
+
 
 $("#game_start").click((event) => {
   event.preventDefault();
