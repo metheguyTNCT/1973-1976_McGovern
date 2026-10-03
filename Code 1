@@ -55,7 +55,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democratic",
             "state": "South Dakota",
             "priority": 1,
-            "description": "<p>Jimmy Carter has served as Governor of Georgia for one term, and has never held an elected office in Washington. In an era of public disgust with Watergate, Vietnam, and the economy, Carter has used his outsider status to win the Democratic nomination. He is an outspoken Southern Baptist, and a moderate within the party on social and economic issues. He begins with an early lead in the polls against Gerald Ford.</p>",
+            "description": "<p>da bicentennial man!</p>",
             "color_hex": "#798dad",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
@@ -213,7 +213,7 @@ campaignTrail_temp.candidate_json = [
             "first_name": "James L.",
             "last_name": "Buckley",
             "election": 10,
-            "party": "Conservative/Republican",
+            "party": "Republican",
             "state": "New York",
             "priority": 9,
             "description": "''",
@@ -247,7 +247,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Howard Baker is a Senator from Tennessee who has served since 1967, and who was nearly appointed to the Supreme Court by Richard Nixon. The first Republican since Reconstruction to be elected to the Senate from his state, he is heavily involved in the passage of most legislation, and is a leading voice among Congressional Republicans. He has a moderate reputation, and is not a first choice of the Reaganites.</p>",
+            "description_as_running_mate": "<p>William Milliken is the incumbent Governor of Michigan. Suceeding famously impulsive George Romney, Milliken couldn't be a greater contrast to his predecessor. A shrewd pragmatist famous for his bipartisanship, Milliken has cultivated a reputation of being everything to everyone.</p><p>Coming from a crucial swing state with a good record, Milliken seems like a fairly safe choice. Nonetheless, there are a few small problems. Milliken's environmental advocacy and generally middle-ground record could depress conservative turnout. He's somewhat of an unknown nationally. But all in all, he'd probably be  a perfectly fine choice for VP.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -270,7 +270,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>John Anderson is a long-time Congressman from Illinois who has conservative fiscal views, moderate social views, and was a strong critic of Richard Nixon during the Watergate hearings. His presence could help win moderates and could swing the state of Illinois. He could also help mitigate, at least somewhat, against Carter's outsider reputation. He would not do much to win back the conservative, Reaganite wing of the party.</p>",
+            "description_as_running_mate": "<p>The newly-minted Governor of South Carolina, selecting William Westmoreland would certainly send the message that you're planning to make this election a referendum on Vietnam. The two of you have remarkably similar political profiles, both being hawkish Governors from the South with somewhat non-ideological brands. This commonality would make Westy a good governing partner, but it remains to be seen if it'd make him a good running mate.</p><p>And, of course, Westmoreland comes with a fair share of liabilities of his own. Besides being a wooden, uninspiring campaigner, Westmoreland's war record remains controversial at best. The McGovern campaign will surely argue that the blame for losing the war ultimately rests with him. Westmoreland is the riskiest of risky picks. You'd better be damned sure of your chances if you pick him.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -293,7 +293,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Perhaps you're worried about your credentials with the party leadership. You're not exactly a lifelong Republican after all. Perhaps you'd like a more established figure next to you. If so, Bob Michel might be the guy you're looking for.</p><p>Michel is a stolid, moderate Congressman who's been in office since Ike was in office. His Midwestern geniality isn't terribly exciting, but that's what you're on the ticket for, after all. He won't overshadow you, which is as good a reason as any. It should be said, though, that Michel's positions tend more to the liberal end of the spectrum, which could inflame the already suspicious Reagan wing of the party even more.</p>",
+            "description_as_running_mate": "<p>Perhaps you're worried about your credentials with the party leadership. You're not exactly a lifelong Republican after all. Perhaps you'd like a more established figure next to you. If so, Bob Michel might be the guy you're looking for.</p><p>Michel is a stolid, moderate Congressman who's been in office since Ike was in office. His Midwestern geniality isn't terribly exciting, but that's what you're on the ticket for, after all. He won't overshadow you, which is as good a reason as any. It should be said, though, that Michel's positions tend more to the liberal end of the spectrum, which could inflame the already suspicious Reagan wing of the party even more. Illinois is also unlikely to be in the cards for you.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -500,7 +500,7 @@ campaignTrail_temp.temp_election_list = [
 jet_data = {
     "headerColor": "#7c5649",
     "windowColor": "#a79773",
-    "containerColor": "#2e3b5c",
+    "containerColor": "#cd5b47",
     "innerWindowColor": "#874829",
     "bannerImageUrl": "https://i.imgur.com/QZ2mOUO.jpeg",
     "backgroundImageUrl": "https://media.gettyimages.com/id/1161100896/photo/unspecified-howard-k-smith-harry-reasoner-barbara-walters-covering-the-1976-presidential.jpg?s=612x612&w=0&k=20&c=-MCUpnGeIMDCQJpiAmr7MilBsQLBMNMg2_Mip5TA2RA=",
@@ -520,7 +520,7 @@ document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_st
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#2e3b5c";
+$(".container")[0].style.backgroundColor = "#cd5b47";
 
 document.getElementById("header").src = "https://i.imgur.com/QZ2mOUO.jpeg";
 
@@ -641,7 +641,7 @@ musicMode = () => {
   height:150px;
   width:200px;
   background-color:#874829;
-  border-color:#96d0ff;
+  border-color:#e68342;
   float:right;
   padding: 10px;
   `
@@ -738,7 +738,7 @@ musicMode = () => {
     function newMusicPlayer() {
         trackSel = document.createElement("div");
         trackSel.id = "trackSelParent"
-        let z = `<div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:170px; width:400px;background-color:#874829;border-color:#96d0ff;float:right;">`
+        let z = `<div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:170px; width:400px;background-color:#874829;border-color:#e68342;float:right;">`
         z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
         for (i in soundtracks) {
             if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
