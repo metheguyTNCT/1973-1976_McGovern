@@ -210,21 +210,21 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 99,
         "fields": {
-            "first_name": "Guy",
-            "last_name": "Vander Jagt",
+            "first_name": "James L.",
+            "last_name": "Buckley",
             "election": 10,
-            "party": "Republican",
-            "state": "Michigan",
+            "party": "Conservative/Republican",
+            "state": "New York",
             "priority": 9,
             "description": "''",
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://i.imgur.com/hdH4Kii.png",
+            "image_url": "https://i.imgur.com/LXeN0tp.png",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>This one's a no-brainer. Guy Vander Jagt is a Congressman from Michigan, widely regarded as the best orator in the party's arsenal, with a deep, full-bodied voice and an excellent memory. He also balances the ticket in all the ways that matter- northern, with deep Congressional connections. He's got a great reputation with the Reaganites, and best of all, despite all this, he won't try and outshine you.</p><p>So really, what it comes down to is, why <I>not</I> pick him? There's really not much of an argument in that direction, other than perhaps moderates might be a little spooked by two bluff conservatives on a ticket, but that's probably not going to be a problem. All your advisors agree that Vander Jagt would be just about the perfect choice.</p>",
+            "description_as_running_mate": "<p>Balance. Picking someone who compliments you. That's what choosing a Vice President is all about. With that in mind, meet James Buckley, your opposite. You're Southern. He's Northern. You're a governor and Cabinet secretary. He's a Senator. You're an orator. He's an intellectual. You're a believer in the power of government. He isn't.</p><p>All these contrasts, while beneficial, are also exactly the problem with picking him. While he'd accept the Vice Presidency if offered it, it's hard to imagine Buckley and you having a harmonious relationship either on <i>the campaign trail</i> or in the White House. But if you're confident enough, going for party unity seems like a smart play.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -233,17 +233,17 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 100,
         "fields": {
-            "first_name": "Bill",
-            "last_name": "Brock",
+            "first_name": "William",
+            "last_name": "Milliken",
             "election": 10,
             "party": "Republican",
-            "state": "Tennessee",
+            "state": "Michigan",
             "priority": 10,
             "description": "''",
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://i.imgur.com/7OwRgNj.png",
+            "image_url": "https://i.imgur.com/z5BIRza.png",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
@@ -279,21 +279,21 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 102,
         "fields": {
-            "first_name": "Hugh",
-            "last_name": "Scott",
+            "first_name": "Robert H.",
+            "last_name": "Michel",
             "election": 10,
             "party": "Republican",
-            "state": "Pennsylvania",
+            "state": "Illinois",
             "priority": 12,
             "description": "''",
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://i.imgur.com/acUxa05.png",
+            "image_url": "https://i.imgur.com/hRbFqHh.png",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>John Connally bolted from the Democrats to the Republicans in 1973. He was Governor of Texas for six years, and could help greatly in winning that state. He is strong on defense issues and conservative on social issues, and could even be seen as an olive branch to the Reaganites. He has good name-recognition, having been wounded in Kennedy's assassination.</p>",
+            "description_as_running_mate": "<p>Perhaps you're worried about your credentials with the party leadership. You're not exactly a lifelong Republican after all. Perhaps you'd like a more established figure next to you. If so, Bob Michel might be the guy you're looking for.</p><p>Michel is a stolid, moderate Congressman who's been in office since Ike was in office. His Midwestern geniality isn't terribly exciting, but that's what you're on the ticket for, after all. He won't overshadow you, which is as good a reason as any. It should be said, though, that Michel's positions tend more to the liberal end of the spectrum, which could inflame the already suspicious Reagan wing of the party even more.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -502,7 +502,7 @@ jet_data = {
     "windowColor": "#a79773",
     "containerColor": "#2e3b5c",
     "innerWindowColor": "#874829",
-    "bannerImageUrl": "https://i.imgur.com/3ccRTHm.jpeg",
+    "bannerImageUrl": "https://i.imgur.com/QZ2mOUO.jpeg",
     "backgroundImageUrl": "https://media.gettyimages.com/id/1161100896/photo/unspecified-howard-k-smith-harry-reasoner-barbara-walters-covering-the-1976-presidential.jpg?s=612x612&w=0&k=20&c=-MCUpnGeIMDCQJpiAmr7MilBsQLBMNMg2_Mip5TA2RA=",
     "endingTextColor": "#000000",
     "customQuote": ""
@@ -522,7 +522,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#2e3b5c";
 
-document.getElementById("header").src = "https://i.imgur.com/3ccRTHm.jpeg";
+document.getElementById("header").src = "https://i.imgur.com/QZ2mOUO.jpeg";
 
 document.body.background = "https://media.gettyimages.com/id/1161100896/photo/unspecified-howard-k-smith-harry-reasoner-barbara-walters-covering-the-1976-presidential.jpg?s=612x612&w=0&k=20&c=-MCUpnGeIMDCQJpiAmr7MilBsQLBMNMg2_Mip5TA2RA=";
 
