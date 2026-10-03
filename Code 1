@@ -55,7 +55,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democratic",
             "state": "South Dakota",
             "priority": 1,
-            "description": "<p>America's bicentennial president could hardly be in a worse position as the 1976 election roars to the start. After barely scraping a win in a chaotic three-way race, George McGovern has been dealt a truly unenviable hand, with a sluggish economy, floundering attempts at diplomacy abroad, roiling culture wars at home, and on top of it all, a primary challenge and a Republican Party still desperate to watch him fail.</p><p>McGovern has a hard choice to make. Either he can keep to his prairie populist roots and defend his record to the full, or he can pivot to the center and run as the steady, sensible incumbent. Either way, most Americans seem to have a favorable view of McGovern as a person if not as a President, certainly when compared to his wheeler-dealer opponent. Will fear of the unknown trump fear of the known?</p>",
+            "description": "<p>America's bicentennial president could hardly be in a worse position as the 1976 election roars to a start. After barely scraping a win in a chaotic three-way race, George McGovern has been dealt a truly unenviable hand, with a sluggish economy, floundering attempts at diplomacy abroad, roiling culture wars at home, and on top of it all, a primary challenge and a Republican Party still desperate to watch him fail.</p><p>McGovern has a hard choice to make. Either he can keep to his prairie populist roots and defend his record to the full, or he can pivot to the center and run as the steady, sensible incumbent. Either way, most Americans seem to have a favorable view of McGovern as a person if not as a President, certainly when compared to his wheeler-dealer opponent. Will fear of the unknown trump fear of the known?</p>",
             "color_hex": "#798dad",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
@@ -132,7 +132,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Walter Mondale is a Senator from Minnesota, a protege of Hubert H. Humphrey, and a key figure for mainstream Democrats. He would help unite the party after a competitive primary, and could help greatly in his home state. Mondale is also a good team player and very eager to help on the campaign.</p>",
+            "description_as_running_mate": "<p>Phil Hart has announced he will not seek a second term as Vice President due to health concerns, meaning you have to pick a new number two. Georgia's hard-nosed Baptist Governor seems like an unlikely choice for the job at first, but he provides good regional and ideological balance, being a centrist Southerner.</p><p>What's better, Carter would inject a unmistakably populist note into your campaign, with his focus on integrity and passionate diatribes against official Washington. That could be just the thing you need in this environment. Nonetheless, you <i>are</I> the incumbent president, so it's hard to gauge if such a campaign could even work. Carter also has an uneasy personal relationship with Lester Maddox, meaning selecting him would most likely make the primary fight loom larger in the campaign. Finally, Carter has a habit of making unforced errors on the hustings, which could light a few fires you'll have to put out.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -178,7 +178,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>John Glenn became the first American to orbit the earth during the Space Race of the 1960s. Now serving as a Senator from Ohio, he could be crucial to winning that state in November. Unfortunately, his keynote speech at the national convention has just landed with a thud. He is relatively new to the Senate and still has some outsider appeal, and does not have a long history with any particular wing of the party.</p>",
+            "description_as_running_mate": "<p>If you want to keep the ideological positioning that's gotten you this far, Indiana's Birch Bayh seems to be the foremost choice. The only man since the Founding to author multiple constitutional amendments, Bayh would compound your reputation as an earnest defender of the liberal idea.</p><p>Young, telegenic, and with no major scandals, no one in the party would have any objection with Bayh, at least not any they'd have the courage to publicly admit. But outside of it is a different story. The Republicans could easily paint you and Bayh as a pair of radical, pointy-headed intellectuals out to dictate Americans' lives. You can only hope that strategy works no better for Connally than it did for Nixon.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -224,7 +224,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Balance. Picking someone who compliments you. That's what choosing a Vice President is all about. With that in mind, meet James Buckley, your opposite. You're Southern. He's Northern. You're a governor and Cabinet secretary. He's a Senator. You're an orator. He's an intellectual. You're a believer in the power of government. He isn't.</p><p>All these contrasts, while beneficial, are also exactly the problem with picking him. While he'd accept the Vice Presidency if offered it, it's hard to imagine Buckley and you having a harmonious relationship either on <i>the campaign trail</i> or in the White House. But if you're confident enough, going for party unity seems like a smart play.</p>",
+            "description_as_running_mate": "<p>Balance. Picking someone who compliments you. That's what choosing a Vice President is all about. With that in mind, meet James Buckley, your opposite. You're Southern. He's Northern. You're a governor and Cabinet secretary. He's a Senator. You're a ward heeler. He's an intellectual. You're a believer in the power of government. He isn't.</p><p>All these contrasts, while beneficial, are also exactly the problem with picking him. While he'd accept the Vice Presidency if offered it, it's hard to imagine Buckley and you having a harmonious relationship either on <i>the campaign trail</i> or in the White House. But if you're confident enough, going for party unity seems like a smart play.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -595,6 +595,9 @@ tooltipList = [
 
 {searchString: "Charlie", explanationText: "<img src=https://i.imgur.com/0aO459g.jpeg> Charles Schultze, Secretary of the Treasury. An amiable economist of the mainline Keynesian school."}, 
 {searchString: "Vance", explanationText: "<img src=https://i.imgur.com/C1gV2Q8.jpeg> Cyrus Vance, Secretary of Defense."},
+{searchString: "Lester Maddox", explanationText: "<img src=https://i.imgur.com/xGYxbIj.jpeg> Segregationist resturantuer-turned Governor, and leader of an ill-fated primary challenge to President McGovern."}, 
+{searchString: "Maddox", explanationText: "<img src=https://i.imgur.com/xGYxbIj.jpeg> Lester Maddox, segregationist resturantuer-turned Governor, and leader of an ill-fated primary challenge to President McGovern."}, 
+
             
             
 ];
