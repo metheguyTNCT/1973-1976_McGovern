@@ -201,7 +201,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Henry \"Scoop\" Jackson is a Senator from Washington who also attempted to secure the 1976 Democratic nomination. He is a more traditional Democrat, favoring both high levels of social spending and a strong national defense policy. He is not popular with the left wing of the party, but would certainly help with moderates, and could swing his home state in the fall elections.</p>",
+            "description_as_running_mate": "<p>Missouri's Senator Eagleton, while not a terribly well-known character, appeared near the top of your shortlist in 1972, and it's easy to see why. To begin with, Connally is strong down South, and his home-state credentials could help dent his lead there. Furthermore, Eagleton has pull with the unions and party leadership- exactly the groups you struggle with.</p><p>That being said, there are some issues. Eagleton is anti-abortion, which might rankle your socially liberal coalition. Eagleton has been treated for depression with electroshock therapy. Doctors agree that Eagleton's condition will probably not prevent him from being Vice President, and this isn't expected to be a big problem unless you make it one.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
