@@ -824,8 +824,8 @@ var soundtracks = {
             name: "Intro",
             tracklist: [
               {
-                "name": "Are You Man Enough? - The Four Tops",
-                "url": "https://audio.jukehost.co.uk/01a0a21d-22fe-73e9-a336-de49167b5776"
+                "name": "The Payback - James Brown",
+                "url": "https://files.catbox.moe/4g0dsb.mp3"
               }
           ]
       },
@@ -878,12 +878,12 @@ var soundtracks = {
                 "url": "https://files.catbox.moe/4pdjys.mp3"
               },
               {
-                "name": "I Shot The Sheriff - Eric Clapton",
-                "url": "https://files.catbox.moe/lg6090.mp3"
+                "name": "Are You Man Enough? - The Four Tops",
+                "url": "https://audio.jukehost.co.uk/01a0a21d-22fe-73e9-a336-de49167b5776"
               },
               {
-                "name": "The Payback - James Brown",
-                "url": "https://files.catbox.moe/4g0dsb.mp3"
+                "name": "Dream a Little Dream, Of Me - Carroll O'Connor",
+                "url": "https://files.catbox.moe/stuugs.mp3"
               },
               {
                 "name": "Guilty - Randy Newman",
