@@ -830,39 +830,6 @@ var soundtracks = {
           ]
       },
       1: {
-            name: "McGovern",
-            tracklist: [
-              {
-                "name": "Keep It Warm - Flo & Eddie",
-                "url": "https://files.catbox.moe/3e8wu9.mp3"
-              },
-              {
-                "name": "Art for Art's Sake - 10cc",
-                "url": "https://files.catbox.moe/ks4omo.mp3"
-              },
-              {
-                "name": "New Kid in Town - Eagles",
-                "url": "https://files.catbox.moe/mp665g.mp3"
-              },
-              {
-                "name": "Come and Get Your Love - Redbone",
-                "url": "https://files.catbox.moe/ui91tj.mp3"
-              },
-              {
-                "name": "Taking it To The Streets - The Doobie Brothers",
-                "url": "https://files.catbox.moe/lzstl2.mp3"
-              },
-              {
-                "name": "Moonlight Feels Right - Starbuck",
-                "url": "https://files.catbox.moe/amkkqq.mp3"
-              },
-              {
-                "name": "Abracadabra - Steve Miller Band",
-                "url": "https://files.catbox.moe/uu3rkq.mp3"
-              }
-          ]
-      },
-      2: {
             name: "Connally",
             tracklist: [
               {
@@ -892,6 +859,39 @@ var soundtracks = {
               {
                 "name": "In The Hall of the Mountain King - Electric Light Orchestra",
                 "url": "https://files.catbox.moe/t2baei.mp3"
+              }
+          ]
+      },
+      2: {
+            name: "McGovern",
+            tracklist: [
+              {
+                "name": "Keep It Warm - Flo & Eddie",
+                "url": "https://files.catbox.moe/3e8wu9.mp3"
+              },
+              {
+                "name": "Art for Art's Sake - 10cc",
+                "url": "https://files.catbox.moe/ks4omo.mp3"
+              },
+              {
+                "name": "New Kid in Town - Eagles",
+                "url": "https://files.catbox.moe/mp665g.mp3"
+              },
+              {
+                "name": "Come and Get Your Love - Redbone",
+                "url": "https://files.catbox.moe/ui91tj.mp3"
+              },
+              {
+                "name": "Taking it To The Streets - The Doobie Brothers",
+                "url": "https://files.catbox.moe/lzstl2.mp3"
+              },
+              {
+                "name": "Moonlight Feels Right - Starbuck",
+                "url": "https://files.catbox.moe/amkkqq.mp3"
+              },
+              {
+                "name": "Abracadabra - Steve Miller Band",
+                "url": "https://files.catbox.moe/uu3rkq.mp3"
               }
           ]
       }
