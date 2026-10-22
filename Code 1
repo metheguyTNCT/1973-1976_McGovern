@@ -155,7 +155,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Frank Church is a Senator from Idaho, and one of Carter's rivals in the 1976 primaries. He is known for his opposition to the Vietnam War, and his investigations of America's intelligence bureaus. Both of these factors make him appealing to the anti-war bloc of the Democratic Party, and have made him a well-known, national figure in politics. He is also outgoing and charismatic, and could overshadow a more soft-spoken Carter.</p>",
+            "description_as_running_mate": "<p>R. Sargent Shriver is your own Secretary of State. As such, selecting him would shift the conversation to foreign policy as the main issue of this election, which is probably not something you want.</p><p>Nonetheless, Shriver is a glamorous figure, and, by marriage, a Kennedy, which is always a helpful asset to have. He is also the mind behind the Peace Corps, tying you to the liberal line even further than you already were. Sarge is also something of a cold, uncharismatic speaker. Shriver wouldn't be a particularly good running mate, not a particularly bad one.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -279,21 +279,21 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 102,
         "fields": {
-            "first_name": "Robert H.",
-            "last_name": "Michel",
+            "first_name": "Bill",
+            "last_name": "Brock",
             "election": 10,
             "party": "Republican",
-            "state": "Illinois",
+            "state": "Tennessee",
             "priority": 12,
             "description": "''",
             "color_hex": "#FF0000",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://i.imgur.com/hRbFqHh.png",
+            "image_url": "https://i.imgur.com/7OwRgNj.png",
             "electoral_victory_message": "''",
             "electoral_loss_message": "''",
             "no_electoral_majority_message": "''",
-            "description_as_running_mate": "<p>Perhaps you're worried about your credentials with the party leadership. You're not exactly a lifelong Republican after all. Perhaps you'd like a more established figure next to you. If so, Bob Michel might be the guy you're looking for.</p><p>Michel is a stolid, moderate Congressman who's been in office since Ike was in office. His Midwestern geniality isn't terribly exciting, but that's what you're on the ticket for, after all. He won't overshadow you, which is as good a reason as any. It should be said, though, that Michel's positions tend more to the liberal end of the spectrum, which could inflame the already suspicious Reagan wing of the party even more. Illinois is also unlikely to be in the cards for you.</p>",
+            "description_as_running_mate": "<p>Perhaps you're worried about your credentials with the party leadership. You're not exactly a lifelong Republican, after all. Perhaps you'd like a more established figure next to you. If so, Bill Brock might be the guy you're looking for.</p><p>A party man by all means, Brock has been a rising star in the party for a while now. He's also a good conservative, making reduction of bloat in government his pet issue. Brock would be an acceptable choice to almost everyone in the party. Nonetheless, Brock does almost nothing to balance the ticket, being a Southern conservative like yourself. But maybe that's the point?</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -824,8 +824,8 @@ var soundtracks = {
             name: "Intro",
             tracklist: [
               {
-                "name": "The Payback - James Brown",
-                "url": "https://files.catbox.moe/4g0dsb.mp3"
+                "name": "Are You Man Enough? - The Four Tops",
+                "url": "https://audio.jukehost.co.uk/01a160eb-23d3-70eb-bbdc-3c7980000fd9"
               }
           ]
       },
@@ -833,32 +833,44 @@ var soundtracks = {
             name: "Connally",
             tracklist: [
               {
+                "name": "An American Trilogy - Elvis Presley",
+                "url": "https://audio.jukehost.co.uk/01a1611a-33cc-712e-8246-18797f7963c2"
+              },
+              {
                 "name": "Rhinestone Cowboy - Glen Campbell",
-                "url": "https://files.catbox.moe/faoy9e.mp3"
+                "url": "https://audio.jukehost.co.uk/01a160eb-88bf-7004-8670-faf69a6e9bd2"
               },
               {
                 "name": "Folsom Prison Blues - Jerry Reed",
-                "url": "https://files.catbox.moe/za0e2t.mp3"
+                "url": "https://audio.jukehost.co.uk/01a160eb-66e6-72af-802d-739964d3c0e3"
               },
               {
                 "name": "Bad, Bad Leroy Brown - Frank Sinatra",
-                "url": "https://files.catbox.moe/4pdjys.mp3"
+                "url": "https://audio.jukehost.co.uk/01a16120-f186-71cd-862e-07c612a1c66c"
               },
               {
-                "name": "Are You Man Enough? - The Four Tops",
-                "url": "https://audio.jukehost.co.uk/01a0a21d-22fe-73e9-a336-de49167b5776"
+                "name": "You Ain't Seen Nothing Yet - Bachman-Turner Overdrive",
+                "url": "https://file.garden/Z7qfmQZIZjO_xV5N/AintSeenNothin.mp3"
               },
               {
                 "name": "Dream a Little Dream, Of Me - Carroll O'Connor",
-                "url": "https://files.catbox.moe/stuugs.mp3"
+                "url": "https://audio.jukehost.co.uk/01a160ea-72fe-700a-a145-f995d0f659d2"
               },
               {
                 "name": "Guilty - Randy Newman",
-                "url": "https://files.catbox.moe/4sg35d.mp3"
+                "url": "https://audio.jukehost.co.uk/01a16120-c9df-7191-9bd6-3983c63b7402"
+              },
+              {
+                "name": "Take This Job and Shove It - Johhny Paycheck",
+                "url": "https://audio.jukehost.co.uk/01a1611f-8782-72f9-9a06-0fd4d46c8780"
+              },
+              {
+                "name": "Dueling Banjos - Eric Weissberg, Steve Mandell",
+                "url": "https://audio.jukehost.co.uk/01a16120-6414-715b-b0cd-f9f622096d5a"
               },
               {
                 "name": "In The Hall of the Mountain King - Electric Light Orchestra",
-                "url": "https://files.catbox.moe/t2baei.mp3"
+                "url": "https://audio.jukehost.co.uk/01a160eb-025e-7051-9cda-70a84b525969"
               }
           ]
       },
@@ -867,31 +879,43 @@ var soundtracks = {
             tracklist: [
               {
                 "name": "Keep It Warm - Flo & Eddie",
-                "url": "https://files.catbox.moe/3e8wu9.mp3"
+                "url": "https://audio.jukehost.co.uk/01a160ea-966f-72ad-b722-6d815c44f95a"
               },
               {
                 "name": "Art for Art's Sake - 10cc",
-                "url": "https://files.catbox.moe/ks4omo.mp3"
+                "url": "https://audio.jukehost.co.uk/01a16125-1016-72a9-b411-96da0dc2cff4"
               },
               {
                 "name": "New Kid in Town - Eagles",
-                "url": "https://files.catbox.moe/mp665g.mp3"
+                "url": "https://audio.jukehost.co.uk/01a160ea-c58f-7096-b546-e25df266b666"
+              },
+              {
+                "name": "Landslide - Fleetwood Mac",
+                "url": "https://audio.jukehost.co.uk/01a12de7-c850-718e-9289-9878425b17f5"
               },
               {
                 "name": "Come and Get Your Love - Redbone",
-                "url": "https://files.catbox.moe/ui91tj.mp3"
+                "url": "https://audio.jukehost.co.uk/01a16124-d782-73c7-bb1c-9cd01bb6cd66"
               },
               {
                 "name": "Taking it To The Streets - The Doobie Brothers",
-                "url": "https://files.catbox.moe/lzstl2.mp3"
+                "url": "https://audio.jukehost.co.uk/01a160ea-51ad-71c3-8a29-066469edc988"
               },
               {
-                "name": "Moonlight Feels Right - Starbuck",
-                "url": "https://files.catbox.moe/amkkqq.mp3"
+                "name": "Hooked On A Feeling - Blue Swede",
+                "url": "https://audio.jukehost.co.uk/01a1611c-54ab-73ec-bb79-a920bf6ed120"
               },
               {
-                "name": "Abracadabra - Steve Miller Band",
-                "url": "https://files.catbox.moe/uu3rkq.mp3"
+                "name": "The Payback - James Brown",
+                "url": "https://audio.jukehost.co.uk/01a160ea-2932-70a6-a871-17da3a787739"
+              },
+              {
+                "name": "You Should Be Dancing - Bee Gees",
+                "url": "https://audio.jukehost.co.uk/01a16125-f49c-7370-a330-334d14237ff2"
+              },
+              {
+                 "name": "Abracadabra - Steve Miller Band",
+                "url": "https://audio.jukehost.co.uk/01a16128-d33e-7310-be59-f8802577c113"
               }
           ]
       }
